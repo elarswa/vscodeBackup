@@ -8,11 +8,13 @@ If on your primary machine, update the .env to point to the location vscode stor
 
 ##### Initial Setup
 
-first update script permissions with:
+first update script permissions by running:
 
-    - `chmod u+x backup.sh`
-    - `chmod u+x install_extensions.sh`
-    - `chmod u+x overwrite_settings.sh`
+```bash
+chmod u+x backup.sh
+chmod u+x install_extensions.sh
+chmod u+x overwrite_settings.sh
+```
 
 #### Primary Machine
 
@@ -24,5 +26,5 @@ If you are on a new machine which you want to configure with the settings in thi
 
 - install extensions with `bash install_extensions.sh`
 - overwrite your machine settings and keybindings by:
-  - update .env variable CODE_USER_DIR to point to where the User folder is under your installed vscode folder `Code`
+  - update .env variable CODE_USER_DIR to point to where the User folder is under your installed vscode folder `Code` such as `~/Library/Application Support/Code/User` on Mac
   - run `bash overwrite_settings.sh`
