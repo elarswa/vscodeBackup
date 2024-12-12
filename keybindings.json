@@ -340,10 +340,6 @@
     "key": "p",
     "command": "filesExplorer.paste",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
-  },
-  {
-    "key": "cmd+e",
-    "command": "-actions.findWithSelection"
   }
   // end vim bindings
 ]

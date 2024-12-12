@@ -1,6 +1,7 @@
 aaron-bond.better-comments
 adpyke.codesnap
 artdiniz.quitcontrol-vscode
+bierner.markdown-preview-github-styles
 boyswan.glsl-literal
 chakrounanas.turbo-console-log
 dbaeumer.vscode-eslint
