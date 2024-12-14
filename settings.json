@@ -28,7 +28,7 @@
   "emmet.showSuggestionsAsSnippets": false,
   "emmet.showExpandedAbbreviation": "never",
   // vim
-  "vim.easymotion": true,
+  "vim.easymotion": false,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
@@ -122,9 +122,9 @@
   "vim.highlightedyank.color": "#a9dc7660",
   "vim.highlightedyank.duration": 800,
   "workbench.colorCustomizations": {
-    "statusBar.background": "#8FBCBB",
-    "statusBar.noFolderBackground": "#8FBCBB",
-    "statusBar.debuggingBackground": "#8FBCBB",
+    "statusBar.background": "#007ACC",
+    "statusBar.noFolderBackground": "#007ACC",
+    "statusBar.debuggingBackground": "#007ACC",
     "statusBar.foreground": "#000",
     "statusBar.debuggingForeground": "#000"
   },
